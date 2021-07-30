@@ -26,4 +26,4 @@ netstat -nxtlp | grep 1688
 * service status：
     /etc/init.d/kms status
 * service uninstall：
-    /kms.sh uninstall 
+    /install.sh uninstall 
