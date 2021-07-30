@@ -2,7 +2,6 @@
 #
 # Auto install KMS Server
 # System Required:  CentOS 6+, Debian7+, Ubuntu12+
-# E-mail: shinpekong@qq.com
 #
 # Thanks: https://github.com/Wind4/vlmcsd
 #
