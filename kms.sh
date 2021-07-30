@@ -130,8 +130,6 @@ install_main() {
     echo " Kernel  : $kern"
     echo "----------------------------------------"
     echo " Auto install KMS Server"
-    echo
-    echo " E-mail: shinpekong@qq.com"
     echo "----------------------------------------"
     echo
     echo "Press any key to start, or Press Ctrl+C to cancel."
