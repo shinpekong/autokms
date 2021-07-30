@@ -3,6 +3,7 @@
 wget --no-check-certificate https://raw.githubusercontent.com/shinpekong/autokms/main/install.sh && chmod +x install.sh && ./install.sh
 
 also, you can download offinstall.tar.gz
+
 wget --no-check-certificate https://github.com/shinpekong/autokms/releases/download/0.0.0.1/offinstall.tar.gz && tar -zxvf offinstall.tar.gz && cd offinstallkms && chmod +x install.sh && ./install.sh
 
 **2.When shell installed, check port 1688:**
