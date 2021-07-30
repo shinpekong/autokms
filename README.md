@@ -1,6 +1,6 @@
 1.Login as root, run shell in terminal:
 
-wget --no-check-certificate https://raw.githubusercontent.com/shinpekong/autokms/main/kms.sh && chmod +x kms.sh && ./kms.sh
+wget --no-check-certificate https://raw.githubusercontent.com/shinpekong/autokms/main/install.sh && chmod +x install.sh && ./install.sh
 
 2.When shell installed, check port 1688:
 
