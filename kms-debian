@@ -10,7 +10,6 @@
 # Description:       Start or stop the KMS Server
 ### END INIT INFO
 
-# Author: shinpekong@qq.com
 
 NAME="KMS Server"
 DAEMON=/usr/bin/vlmcsd
