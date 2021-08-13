@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #
 # Auto install KMS Server
-# System Required:  CentOS 6+, Debian7+, Ubuntu12+
+# System Required:  CentOS 6+, Debian7+, Ubuntu12+, UOS
 #
 # Thanks: https://github.com/Wind4/vlmcsd
 #
@@ -21,12 +21,16 @@ elif grep -Eqi "debian" /etc/issue; then
     release="debian"
 elif grep -Eqi "ubuntu" /etc/issue; then
     release="ubuntu"
+elif grep -Eqi "UnionTech OS" /etc/issue; then
+    release="UOS"
 elif grep -Eqi "centos|red hat|redhat" /etc/issue; then
     release="centos"
 elif grep -Eqi "debian" /proc/version; then
     release="debian"
 elif grep -Eqi "ubuntu" /proc/version; then
     release="ubuntu"
+elif grep -Eqi "Uos" /proc/version; then
+    release="UOS"
 elif grep -Eqi "centos|red hat|redhat" /proc/version; then
     release="centos"
 else
